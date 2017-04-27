@@ -1,0 +1,34 @@
+#todo-list {
+  margin-top: 2em;
+
+}
+.item {
+  border: 1px solid #ccc;
+  padding: .5em;
+  margin-bottom: .5em;
+  border-radius: 5px;
+  font-size: 2em;
+}
+
+.done .fa-square-o {
+  display: none;
+}
+
+.todo .fa-check-square {
+  display: none;
+}
+
+
+.done:first-of-type {
+  margin-top: 1.5em;
+}
+
+.done {
+  background-color: #ddd;
+  color: #888;
+}
+
+.form-control:hover {
+  border-color: gold;
+  background-color: gold;
+}

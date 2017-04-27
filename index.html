@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>TODO List</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-offset-2 col-sm-8">
+          <h1>TODO list</h1>
+
+          <label for="new-task">Nouvelle tâche :</label>
+          <input id="new-task" type="text" class="form-control" />
+
+          <div id="todo-list">
+            <div class="item todo">
+              <i class="fa fa-square-o"></i>
+              <i class="fa fa-check-square"></i>
+              <span class="task">Préparer les vacances</span>
+              <i class="fa fa-times pull-right"></i>
+            </div>
+
+
+            <div class="item done">
+              <i class="fa fa-square-o"></i>
+              <i class="fa fa-check-square"></i>
+              <span class="task">Apprendre un peu du Ruby</span>
+              <i class="fa fa-times pull-right"></i>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="application.js"></script>
+  </body>
+</html>

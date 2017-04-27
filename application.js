@@ -17,7 +17,7 @@ $(document).ready(function() {
   });
 
 
-  $(document).on("click", ".fa-square-o", function(event) {
+  $("#todo-list").on("click", ".fa-square-o", function(event) {
     $(this)
       .parent()
       .removeClass("todo")
@@ -26,7 +26,7 @@ $(document).ready(function() {
       .appendTo($("#todo-list"));
   });
 
-  $(document).on("click", ".fa-check-square", function(event) {
+  $("#todo-list").on("click", ".fa-check-square", function(event) {
     $(this)
       .parent()
       .addClass("todo")
@@ -35,13 +35,15 @@ $(document).ready(function() {
       .prependTo($("#todo-list"));
   });
 
-  $(document).on("click", ".fa-times", function(event) {
+  $("#todo-list").on("click", ".fa-times", function(event) {
     $(this)
       .parent()
       .remove();
   });
 
   // TODO : éditer le texte d'une task en double-cliquant sur le texte
+  // TODO : utiliser une petite animation (slideDown ou animate)
+  //        lorsqu'on insère une nouvelle tache
   // TODO : à chaque nouvelle task, envoyer *toutes* les tasks en AJAX
   //        à une mini-appli rails qui les sauvegardera dans un fichier
 });

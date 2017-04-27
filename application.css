@@ -18,17 +18,7 @@
   display: none;
 }
 
-
-.done:first-of-type {
-  margin-top: 1.5em;
-}
-
 .done {
   background-color: #ddd;
   color: #888;
-}
-
-.form-control:hover {
-  border-color: gold;
-  background-color: gold;
 }

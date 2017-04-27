@@ -1,6 +1,9 @@
+h1 {
+  text-align: center;
+}
+
 #todo-list {
   margin-top: 2em;
-
 }
 .item {
   border: 1px solid #ccc;
@@ -8,6 +11,10 @@
   margin-bottom: .5em;
   border-radius: 5px;
   font-size: 2em;
+}
+
+.task {
+  font-size: 0.7em;
 }
 
 .done .fa-square-o {

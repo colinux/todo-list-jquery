@@ -44,8 +44,6 @@ $(document).ready(function() {
   // TODO : éditer le texte d'une task en double-cliquant sur le texte
   // TODO : utiliser une petite animation (slideDown ou animate)
   //        lorsqu'on insère une nouvelle tache
-  // TODO : à chaque nouvelle task, envoyer *toutes* les tasks en AJAX
-  //        à une mini-appli rails qui les sauvegardera dans un fichier
 });
 
 function capitalizeFirstLetter(string) {
